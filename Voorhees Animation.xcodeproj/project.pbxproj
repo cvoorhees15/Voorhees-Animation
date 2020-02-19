@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D79C8CB423F6E60000C0FE08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C8CB323F6E60000C0FE08 /* AppDelegate.swift */; };
+		D79C8CB623F6E60000C0FE08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C8CB523F6E60000C0FE08 /* SceneDelegate.swift */; };
+		D79C8CB823F6E60000C0FE08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C8CB723F6E60000C0FE08 /* ViewController.swift */; };
+		D79C8CBB23F6E60000C0FE08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79C8CB923F6E60000C0FE08 /* Main.storyboard */; };
+		D79C8CBD23F6E60400C0FE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79C8CBC23F6E60400C0FE08 /* Assets.xcassets */; };
+		D79C8CC023F6E60400C0FE08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79C8CBE23F6E60400C0FE08 /* LaunchScreen.storyboard */; };
+		D79C8CCB23F6E60400C0FE08 /* Voorhees_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C8CCA23F6E60400C0FE08 /* Voorhees_AnimationTests.swift */; };
+		D79C8CD623F6E60400C0FE08 /* Voorhees_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C8CD523F6E60400C0FE08 /* Voorhees_AnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79C8CC723F6E60400C0FE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79C8CA823F6E60000C0FE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79C8CAF23F6E60000C0FE08;
+			remoteInfo = "Voorhees Animation";
+		};
+		D79C8CD223F6E60400C0FE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79C8CA823F6E60000C0FE08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79C8CAF23F6E60000C0FE08;
+			remoteInfo = "Voorhees Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D79C8CB023F6E60000C0FE08 /* Voorhees Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voorhees Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79C8CB323F6E60000C0FE08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D79C8CB523F6E60000C0FE08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D79C8CB723F6E60000C0FE08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D79C8CBA23F6E60000C0FE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D79C8CBC23F6E60400C0FE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79C8CBF23F6E60400C0FE08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D79C8CC123F6E60400C0FE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79C8CC623F6E60400C0FE08 /* Voorhees AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voorhees AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79C8CCA23F6E60400C0FE08 /* Voorhees_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voorhees_AnimationTests.swift; sourceTree = "<group>"; };
+		D79C8CCC23F6E60400C0FE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79C8CD123F6E60400C0FE08 /* Voorhees AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voorhees AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79C8CD523F6E60400C0FE08 /* Voorhees_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voorhees_AnimationUITests.swift; sourceTree = "<group>"; };
+		D79C8CD723F6E60400C0FE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79C8CAD23F6E60000C0FE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79C8CC323F6E60400C0FE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79C8CCE23F6E60400C0FE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79C8CA723F6E60000C0FE08 = {
+			isa = PBXGroup;
+			children = (
+				D79C8CB223F6E60000C0FE08 /* Voorhees Animation */,
+				D79C8CC923F6E60400C0FE08 /* Voorhees AnimationTests */,
+				D79C8CD423F6E60400C0FE08 /* Voorhees AnimationUITests */,
+				D79C8CB123F6E60000C0FE08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79C8CB123F6E60000C0FE08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79C8CB023F6E60000C0FE08 /* Voorhees Animation.app */,
+				D79C8CC623F6E60400C0FE08 /* Voorhees AnimationTests.xctest */,
+				D79C8CD123F6E60400C0FE08 /* Voorhees AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79C8CB223F6E60000C0FE08 /* Voorhees Animation */ = {
+			isa = PBXGroup;
+			children = (
+				D79C8CB323F6E60000C0FE08 /* AppDelegate.swift */,
+				D79C8CB523F6E60000C0FE08 /* SceneDelegate.swift */,
+				D79C8CB723F6E60000C0FE08 /* ViewController.swift */,
+				D79C8CB923F6E60000C0FE08 /* Main.storyboard */,
+				D79C8CBC23F6E60400C0FE08 /* Assets.xcassets */,
+				D79C8CBE23F6E60400C0FE08 /* LaunchScreen.storyboard */,
+				D79C8CC123F6E60400C0FE08 /* Info.plist */,
+			);
+			path = "Voorhees Animation";
+			sourceTree = "<group>";
+		};
+		D79C8CC923F6E60400C0FE08 /* Voorhees AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79C8CCA23F6E60400C0FE08 /* Voorhees_AnimationTests.swift */,
+				D79C8CCC23F6E60400C0FE08 /* Info.plist */,
+			);
+			path = "Voorhees AnimationTests";
+			sourceTree = "<group>";
+		};
+		D79C8CD423F6E60400C0FE08 /* Voorhees AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D79C8CD523F6E60400C0FE08 /* Voorhees_AnimationUITests.swift */,
+				D79C8CD723F6E60400C0FE08 /* Info.plist */,
+			);
+			path = "Voorhees AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79C8CAF23F6E60000C0FE08 /* Voorhees Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79C8CDA23F6E60400C0FE08 /* Build configuration list for PBXNativeTarget "Voorhees Animation" */;
+			buildPhases = (
+				D79C8CAC23F6E60000C0FE08 /* Sources */,
+				D79C8CAD23F6E60000C0FE08 /* Frameworks */,
+				D79C8CAE23F6E60000C0FE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voorhees Animation";
+			productName = "Voorhees Animation";
+			productReference = D79C8CB023F6E60000C0FE08 /* Voorhees Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79C8CC523F6E60400C0FE08 /* Voorhees AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79C8CDD23F6E60400C0FE08 /* Build configuration list for PBXNativeTarget "Voorhees AnimationTests" */;
+			buildPhases = (
+				D79C8CC223F6E60400C0FE08 /* Sources */,
+				D79C8CC323F6E60400C0FE08 /* Frameworks */,
+				D79C8CC423F6E60400C0FE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79C8CC823F6E60400C0FE08 /* PBXTargetDependency */,
+			);
+			name = "Voorhees AnimationTests";
+			productName = "Voorhees AnimationTests";
+			productReference = D79C8CC623F6E60400C0FE08 /* Voorhees AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D79C8CD023F6E60400C0FE08 /* Voorhees AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79C8CE023F6E60400C0FE08 /* Build configuration list for PBXNativeTarget "Voorhees AnimationUITests" */;
+			buildPhases = (
+				D79C8CCD23F6E60400C0FE08 /* Sources */,
+				D79C8CCE23F6E60400C0FE08 /* Frameworks */,
+				D79C8CCF23F6E60400C0FE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79C8CD323F6E60400C0FE08 /* PBXTargetDependency */,
+			);
+			name = "Voorhees AnimationUITests";
+			productName = "Voorhees AnimationUITests";
+			productReference = D79C8CD123F6E60400C0FE08 /* Voorhees AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79C8CA823F6E60000C0FE08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Caleb Voorhees";
+				TargetAttributes = {
+					D79C8CAF23F6E60000C0FE08 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D79C8CC523F6E60400C0FE08 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D79C8CAF23F6E60000C0FE08;
+					};
+					D79C8CD023F6E60400C0FE08 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D79C8CAF23F6E60000C0FE08;
+					};
+				};
+			};
+			buildConfigurationList = D79C8CAB23F6E60000C0FE08 /* Build configuration list for PBXProject "Voorhees Animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79C8CA723F6E60000C0FE08;
+			productRefGroup = D79C8CB123F6E60000C0FE08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79C8CAF23F6E60000C0FE08 /* Voorhees Animation */,
+				D79C8CC523F6E60400C0FE08 /* Voorhees AnimationTests */,
+				D79C8CD023F6E60400C0FE08 /* Voorhees AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79C8CAE23F6E60000C0FE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79C8CC023F6E60400C0FE08 /* LaunchScreen.storyboard in Resources */,
+				D79C8CBD23F6E60400C0FE08 /* Assets.xcassets in Resources */,
+				D79C8CBB23F6E60000C0FE08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79C8CC423F6E60400C0FE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79C8CCF23F6E60400C0FE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79C8CAC23F6E60000C0FE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79C8CB823F6E60000C0FE08 /* ViewController.swift in Sources */,
+				D79C8CB423F6E60000C0FE08 /* AppDelegate.swift in Sources */,
+				D79C8CB623F6E60000C0FE08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79C8CC223F6E60400C0FE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79C8CCB23F6E60400C0FE08 /* Voorhees_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79C8CCD23F6E60400C0FE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79C8CD623F6E60400C0FE08 /* Voorhees_AnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79C8CC823F6E60400C0FE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79C8CAF23F6E60000C0FE08 /* Voorhees Animation */;
+			targetProxy = D79C8CC723F6E60400C0FE08 /* PBXContainerItemProxy */;
+		};
+		D79C8CD323F6E60400C0FE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79C8CAF23F6E60000C0FE08 /* Voorhees Animation */;
+			targetProxy = D79C8CD223F6E60400C0FE08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D79C8CB923F6E60000C0FE08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79C8CBA23F6E60000C0FE08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D79C8CBE23F6E60400C0FE08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79C8CBF23F6E60400C0FE08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79C8CD823F6E60400C0FE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D79C8CD923F6E60400C0FE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79C8CDB23F6E60400C0FE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D79C8CDC23F6E60400C0FE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D79C8CDE23F6E60400C0FE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees AnimationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voorhees Animation.app/Voorhees Animation";
+			};
+			name = Debug;
+		};
+		D79C8CDF23F6E60400C0FE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees AnimationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voorhees Animation.app/Voorhees Animation";
+			};
+			name = Release;
+		};
+		D79C8CE123F6E60400C0FE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voorhees Animation";
+			};
+			name = Debug;
+		};
+		D79C8CE223F6E60400C0FE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voorhees Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79C8CAB23F6E60000C0FE08 /* Build configuration list for PBXProject "Voorhees Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79C8CD823F6E60400C0FE08 /* Debug */,
+				D79C8CD923F6E60400C0FE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79C8CDA23F6E60400C0FE08 /* Build configuration list for PBXNativeTarget "Voorhees Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79C8CDB23F6E60400C0FE08 /* Debug */,
+				D79C8CDC23F6E60400C0FE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79C8CDD23F6E60400C0FE08 /* Build configuration list for PBXNativeTarget "Voorhees AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79C8CDE23F6E60400C0FE08 /* Debug */,
+				D79C8CDF23F6E60400C0FE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79C8CE023F6E60400C0FE08 /* Build configuration list for PBXNativeTarget "Voorhees AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79C8CE123F6E60400C0FE08 /* Debug */,
+				D79C8CE223F6E60400C0FE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79C8CA823F6E60000C0FE08 /* Project object */;
+}
